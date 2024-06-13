@@ -1,0 +1,96 @@
+body {
+    background: rgb(255, 97, 97);
+    background: linear-gradient(90deg, rgba(255, 97, 97, 0.5970588919161415) 0%, rgba(78, 0, 158, 1) 100%);
+}
+
+.container {
+    display: block;
+    width: 500px;
+    height: 450px;
+    background-color: #111111;
+    margin: 200px auto;
+    width: 650px;
+    height: 560px;
+    box-sizing: border-box;
+}
+
+.title {
+    display: inline-block;
+    margin-left: 232px;
+    margin-top: 35px;
+    font-size: 40px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.info {
+    font-size: 18px;
+    margin-left: 205px;
+    color: #808080;
+    font-family: "Leelawadee UI Semilight";
+}
+
+.form {
+    display: block;
+    color: #fff;
+}
+
+.p1 {
+    margin-left: 200px;
+}
+
+#number {
+    font-family: "Leelawadee UI Semilight";
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 20px;
+    width: 260px;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid skyblue;
+    outline: none;
+
+}
+
+#number:focus {
+    transition: .30s;
+    border: 2px solid #8fdb93;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.submit {
+    font-family: "Leelawadee UI Semilight";
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 115px;
+    height: 45px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 17px;
+    border: 1.99999px solid #8fdb93;
+    transition: .30s;
+
+}
+
+.submit:hover {
+    background-color: #8fdb93;
+    color: #000116;
+    transition: .30s;
+}
+
+.status {
+    transition: .50s;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 26px;
+    color: #fff;
+}
