@@ -1,8 +1,4 @@
-def factorial(n):
-    if n == 1:
-        return 1
-    else:
-        return n * factorial(n - 1)
-
-
-print(factorial(5))
+import math
+j = int(input("Enter your number : "))
+n = math.factorial(j)
+print("The factorial of ",j, " is " ,n)
